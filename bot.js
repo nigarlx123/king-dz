@@ -17,7 +17,7 @@ client.on('message', msg => {
 
 
 client.on('message', async message =>{
-  var prefix = "*";
+  var prefix = "-";
 const ms = require("ms");
 if (message.author.omar) return;
 if (!message.content.startsWith(prefix)) return;
